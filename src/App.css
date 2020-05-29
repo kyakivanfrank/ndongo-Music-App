@@ -1,0 +1,158 @@
+
+a{text-decoration: none;}
+
+body{background-color: #f8ce00; }
+h1,h2,h3,h4,h5,h6{ margin: 0; padding: 0; font-weight: normal ; color: black; }
+h1{font-size: 40px;}
+h2{font-size: 30px; padding: 25px 0;}
+h3{font-size: 20px;}
+h4{font-size: 15px;}
+h5{font-size: 13px;}
+
+.song:hover{ background-color:  #ffe600b7;  border-radius: 5px}
+ #logo{width: 250px; align-items: center;  }
+ #searchicon{width: 20px; align-content: flex-end; margin: auto 0; }
+ /* .d {display: flex;  border: 3px red solid;} */
+ .searchDiv{border: 2px #f8ce00 solid; border-radius: 10px; float: right; padding: 5px; margin: 0; align-content: center; }
+ .searchDiv button{border:none; background-color: black; padding: 6px; }
+ header{ background-color: black; padding: 12px 0; position: fixed; width: 100%; padding: 15px 0; z-index: 1;}
+ .replacerDiv{ height:85px}
+ #searchbar{ padding: 10px 20px; width: 350px; margin: 0 10px; font-size: 18px; background-color: black; border: none; color: #f8ce00;  }
+
+.menu-container{ background-color: black }
+ ul{ display: flex; justify-content: space-around; width: 60%; }
+ ul li{ color: #f8ce00; padding: 10px 0; list-style: none; }
+
+.container{ width: 80%; margin:0 auto; }
+
+.slider-wrapper{display: flex; position: absolute; transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.slidepiece { width: 600px; margin: 0 10px;  flex:1;  opacity: 1; transition: width opacity 1s linear; transition: width 1s linear }
+.slideShower{background-size: cover; transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); height: 310px; overflow-x: hidden;  padding: 60px 0 }
+.slider{ width: 600px; margin: 0 auto; position: relative; }
+.slidepiece img{width: 600px; border-radius: 20px;  background-color: #f8ce00; box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.600); }
+.slidepiece h1{font-size: 35px; text-align: center}
+.slideShower .buttonBox { width: 100%; position: absolute; z-index: 1; top: 230px; }
+.slideShower .buttonBox button{  border: none; background: none; background-color: rgba(255,255,255, 0.6); border-radius: 80%;  padding: 10px;  }
+.slideShower .buttonBox button img{ width:20px;  }
+
+
+.slider.active-slide-0 #card-0{opacity: 1; z-index: 1; }
+.slider.active-slide-1 #card-1{opacity: 1; z-index: 1;}
+.slider.active-slide-2 #card-2{opacity: 1; z-index: 1;}
+.slider.active-slide-3 #card-3{opacity: 1;z-index: 1;}
+.slider.active-slide-4 #card-4{opacity: 1;z-index: 1;}
+.slider.active-slide-5 #card-5{opacity: 1;z-index: 1;}
+
+.slider.active-slide-0 #card-0 h1{font-size: 45px; text-shadow: 0px 5px 5px #2e2702ce ; transition: transform 3s ; }
+.slider.active-slide-1 #card-1 h1{font-size: 45px; transition: transform 3s ; }
+.slider.active-slide-2 #card-2 h1{font-size: 45px; transition: transform 3s ; }
+.slider.active-slide-3 #card-3 h1{font-size: 45px; transition: transform 3s ; }
+.slider.active-slide-4 #card-4 h1{font-size: 45px; transition: transform 3s ; }
+.slider.active-slide-5 #card-5 h1{font-size: 45px; transition: transform 3s ; }
+
+
+
+/*.slide-bounder{border: 3px red solid; position: relative; margin: 0 auto; max-width: 800px}
+.slides-wrapper{ padding: 0;}
+#slideImgPiece img{ width: 750px; padding: 0; margin: 0 }
+#slideImgPiece h2{ font-size: 40px; margin: -100px 0 0 0 }
+
+
+*/
+
+
+
+ #artist{ border-radius: 100%; width: 150px; }
+ .artistpanel{ border-bottom: 3px black solid; padding-bottom: 20px }
+
+#ArtistSpan { display: inline-block; padding: 10px; border-radius: 5px}
+#ArtistSpan:hover{ background-color:  #ffe600b7}
+#ArtistSpan h3{ text-align: center; }
+
+#songlyrics{ font-size: 30px; margin: 15px 0; padding: 0}
+
+
+.playBar{  background-color: aqua; }
+.playbarArtistdisplay img{ width: 40px;}
+
+.NowPlayingBG{background-color: #ffffff}
+
+.NowPlaying{ display: flex; padding:50px 0;}
+.NowPlayingImgBox{flex: 2; }
+.NowPlayingImgBox img{width: 350px; border: 5px #f8ce00 solid; border-radius: 10px;  }
+.NowPlayingWordBox{flex: 3}
+.NowPlayingWordBox button{ border: 3px black solid; background: none ; padding: 15px  20px; margin: 0 20px 0 0; font-size: 20px; border-radius: 5px;}
+.NowPlayingWordBox a{border: 4px black solid; border-radius: 50px; border-top-left-radius: 30px; margin: 0 10px 0 0; padding: 1px;}
+.NowPlayingWordBox a img{width: 25px; margin: 5px; }
+.NowPlayingWordBox div{ display: flex; margin: 20px 0;}
+.NowPlayingWordBox h2{  padding: 0; margin: 0; }
+.NowPlayingWordBox h3{padding: 0; margin: 0 15px 0 0; }
+
+.NowPlayingLists{display: flex; padding:20px 0;}
+.NowPlayingImgBoxLists{flex: 1;  }
+.NowPlayingImgBoxLists img, #thumbnail {width: 130px; border-radius: 5%; }
+.NowPlayingWordBoxLists{flex: 4;  margin: 0 20px}
+.NowPlayingWordBoxLists h2{ padding: 0}
+.NowPlayingWordBoxLists h3:hover{ text-decoration: underline;  padding: 0}
+.NowPlayingWordBoxLists button{ border: 3px black solid; background: none ; padding: 8px  13px; margin: 0 10px 0 0; font-size: 12px; border-radius: 5px;}
+.NowPlayingWordBoxLists div a{border: 3px black solid; border-radius: 50px; border-top-left-radius: 15px; margin: 0 10px 0 0; padding: 1px;}
+.NowPlayingWordBoxLists div a img{width: 25px; margin: 5px; }
+.NowPlayingWordBoxLists div{ display: flex; margin: 10px 0;}
+.NowPlayingWordBoxLists h4{ margin: 0 15px 0 0; }
+
+.artistDescritpion {border-bottom: 3px black solid; padding-bottom: 20px}
+.artistDescritpion p{font-size: 20px;}
+.lyricsBox{ border: 3px black solid; border-radius: 10px; padding: 0 20px;}
+.lyricsBox p{ font-size: 20px; }
+h5{font-weight: bold; }
+span{ display: inline-block; padding: 10px; }
+
+.largePic{ padding: 60px 0px 50px; background-color: black; background-repeat: no-repeat; background-position-x: right;  }
+.largePic img{ width: 250px; border: 5px  white solid; border-radius: 20px; }
+.largePic span { margin:0 25px; }
+.largePic span h1{ color:  #f8ce00;  }
+.largePic span h2 { color:  white; }
+.largePic span h2 span{ margin: 0 20px 0 0; padding: 0; }
+
+.lower-division{display: flex;}
+#lowerDivHeading{padding:  0 5px}
+.div-artistMusic{flex: 4; padding-right: 5px; }
+.div-relatedArtists{flex: 2; padding-left: 5px; }
+
+.div-relatedArtists .artistpanel{margin: 0 auto}
+
+.albumSlot{ padding: 5px; border: 2px white solid;}
+
+.detailsPanel{display: flex; }
+.collectionPanel{ flex: 3; }
+.rankingsPanel{flex: 1;}
+
+
+.TrendSong{ border-bottom:3px black solid; margin-bottom: 2px; background-color: #ffe600b7; padding: 5px; border-radius: 2px}
+.trendBox{ display: flex; align-items: flex-end; }
+.trendImg{flex: 1; align-content: flex-end;}
+.trendSongName{flex: 5; text-align: left; margin: 0 10px 0; }
+.trendMark{flex: 1;}
+ #trendMark{ width: 15px;}
+  #trendImg{ width: 2em; border-radius: 5px;}
+
+
+ .TrendSong div button { border: none; background: none}
+ .TrendTxt{ display: inline-block; border:2px red solid;}
+
+
+
+
+footer{ background-color: black; border-top: 2px white solid;  color: #f8ce00; margin: 100px 0 0 0; }
+
+.footerData{height: 470px; }
+.footer{ border-top: 2px #f8ce00 solid; display: flex;  justify-content: space-between;}
+.footer .aboutings{flex: 3; display: flex; }
+.footer .oursocialMedia{flex: 2; display: flex;}
+
+
+.footer h4{ color: #f8ce00; padding: 10px 4px; }
+.footer a h4:hover{ color: white; }
+.footer h4 a{ color: white; padding:10px 5px;  }
+.footer a img{ width: 30px;background-color: white; border-radius: 20px; padding: 2px; margin:6px 5px; }
+
