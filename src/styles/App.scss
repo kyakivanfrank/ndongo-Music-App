@@ -1,0 +1,180 @@
+$mainColor: #f8ce00;
+$bgColor: black;
+
+*{ box-sizing: border-box;
+}
+a{text-decoration: none;}
+
+body{background-color: $mainColor; }
+h1,h2,h3,h4,h5,h6{ margin: 0; padding: 0; font-weight: normal ; color: $bgColor; }
+h1{font-size: 40px;}
+h2{font-size: 30px; padding: 25px 0;}
+h3{font-size: 20px;}
+h4{font-size: 15px;}
+h5{font-size: 13px;}
+
+.arrow{  width: 30px; height: 30px; border: $bgColor solid; 
+border-width: 0 5px 5px 0; display: inline-block; margin: .5em  }
+.R { transform: rotate(-45deg)}
+.L { transform: rotate(135deg)}
+
+/* *************************** this is the accordion ************************************************** */
+
+.accordion h3{display: inline}
+.accordion{ background-color: $mainColor; border: none; cursor: pointer; padding: 15px; width: 100%; text-align: left; transition: 0.4s; }
+.active, .accordion:hover{background-color: #f1f3f4}
+.accordion:after{ content: '\002B'; font-weight: bold; float: right;}
+.active:after{content: "\2212"}
+
+.panel{transition:  1s ease-in-out}
+
+/* *************************************************************************************************** */
+
+.song{border-radius: 5px; transition: 2s }
+.song:hover{ background-color: #ffe600b7; box-shadow: 0 3px 10px #0000001c; transition: 0.5s}
+ #logo{width: 250px; align-items: center;  }
+ #searchicon{width: 20px; align-content: flex-end; margin: auto 0; }
+ .searchDiv button{border:none; background-color: $bgColor; padding: 6px; }
+
+ 
+.chip{ background-color:$mainColor; display:inline-block; margin:2px 3px; border-radius:50px; color: $bgColor; }
+
+/* *************************************************************************************************** */
+ header{ background-color: $bgColor;  position: fixed; width: 100%; padding: 15px 0; z-index: 1  }
+
+ .replacerDiv{ height:11vh}
+ #searchbar{ outline: 2px $mainColor solid; float: right; padding: 10px 20px; width: 350px; margin: 0 10px; font-size: 18px; background-color: $bgColor; border: none; color: $mainColor;  }
+
+ #searchbar:visited{border: yellow}
+.menu-container{ background-color: $bgColor }
+ ul{ display: flex; justify-content: space-around; width: 60%; }
+ ul li{ color: $mainColor; padding: 10px 0; list-style: none; }
+
+.container{ width: 80%; margin:0 auto; }
+
+.slider-wrapper{display: flex; position: absolute; transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);  }
+.slider-wrapper a{text-decoration: none; transition: transform 0.5s; backface-visibility: hidden}
+.slider-wrapper a:hover{ transition: transform 0.5s;transform: translateY(-10px); }
+.slidepiece { width: 600px; margin: 0 10px;  flex:1;  opacity: 1; transition: width opacity 1s linear; transition: width 1s linear }
+.slideShower{background-size: cover; transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); height: 430px; overflow-x: hidden;  padding: 60px 0 }
+.slider{ width: 600px; margin: 0 auto; position: relative; }
+.slidepiece img{width: 600px; border-radius: 20px;  background-color: $mainColor; box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.6); }
+.slidepiece h1{font-size: 35px; opacity: 0.9; text-align: center; text-shadow: 0px 3px 3px #2e2702a2; transition: font-size 0.5s; backface-visibility: hidden}
+
+.slideShower .buttonZ{  position: absolute; top: 250px; z-index: 3;
+    border: none; background-color: #ffffff8f; transition: 0.5s;
+    outline: 5px rgba(255, 255, 255, 0.287) solid; outline-offset: 5px; padding: 8px;  }
+.buttonZ:hover{ background-color: #ffffffc5; transition: 0.5s;  }
+
+	.slideShower .previousArrow{left: 5%}
+	.slideShower .nextArrow{left: 90%}
+
+.slider.active-slide-0 #card-0{opacity: 1;}
+.slider.active-slide-1 #card-1{opacity: 1;}
+.slider.active-slide-2 #card-2{opacity: 1;}
+.slider.active-slide-3 #card-3{opacity: 1;}
+.slider.active-slide-4 #card-4{opacity: 1;}
+.slider.active-slide-5 #card-5{opacity: 1;}
+
+.slider.active-slide-0 #card-0 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+.slider.active-slide-1 #card-1 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+.slider.active-slide-2 #card-2 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+.slider.active-slide-3 #card-3 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+.slider.active-slide-4 #card-4 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+.slider.active-slide-5 #card-5 h1{font-size: 45px; opacity: 1; text-shadow: 0px 8px 5px #2e2702c5; transition: font-size opacity 0.5s}
+
+ #artist{ border-radius: 100%; width: 150px; }
+ .artistpanel{ border-bottom: 3px $bgColor solid; padding-bottom: 20px }
+
+#ArtistSpan { display: inline-block; padding: 10px; border-radius: 5px; transition: 2s}
+#ArtistSpan:hover{ background-color:  #ffe600b7; box-shadow: 0 3px 10px #0000001c; transition: 0.5s; transform: scale(1.09)}
+#ArtistSpan h3{ text-align: center; }
+
+#songlyrics{ font-size: 30px; margin: 15px 0; padding: 0}
+
+.playBar{ display: inline-flex; position: fixed; bottom:25px; left: -83vh; z-index: 1; 
+    padding: 5px 5px 5px 50px; box-shadow: 0px 5px 25px #00000035;  transition: 0.9s; 
+    background:#f1f3f4; align-items: center; border-radius: 0 30px 30px 0 }
+    .playBar:hover{ left: 0; transition-duration: 0.9s ;}
+.playBar div{  margin: 0 5px}
+.playText{padding: 0 30px 0 0}
+.playbarArtist img{  width: 50px; border: 3px white solid; }
+
+.audio { width: 300px; height: 40px; align-self: center }
+
+.NowPlayingBG{background-color: #ffffff}
+
+.NowPlaying{ display: flex; padding:50px 0;}
+.NowPlayingImgBox{flex: 2; }
+.NowPlayingImgBox img{width: 350px; border: 5px $mainColor solid; border-radius: 10px;  }
+.NowPlayingWordBox{flex: 3}
+.NowPlayingWordBox button{ border: 3px $bgColor solid; background: none ; padding: 15px  20px; margin: 0 20px 0 0; font-size: 20px; border-radius: 5px;}
+.NowPlayingWordBox a{border: 4px $bgColor solid; border-radius: 50px; border-top-left-radius: 30px; margin: 0 10px 0 0; padding: 1px;}
+.NowPlayingWordBox a img{width: 25px; margin: 5px; }
+.NowPlayingWordBox div{ display: flex; margin: 20px 0;}
+.NowPlayingWordBox h2{  padding: 0; margin: 0; }
+.NowPlayingWordBox h3{padding: 0; margin: 0 15px 0 0; }
+
+.NowPlayingLists{display: flex; padding:20px 0;}
+.NowPlayingImgBoxLists{flex: 1;  }
+.NowPlayingImgBoxLists img, #thumbnail {width: 130px; border-radius: 5%; }
+.NowPlayingWordBoxLists{flex: 4;  margin: 0 20px}
+.NowPlayingWordBoxLists h2{ padding: 0}
+.NowPlayingWordBoxLists h3{display: inline;}
+.NowPlayingWordBoxLists h3:hover{ text-decoration: underline;  padding: 0; }
+.NowPlayingWordBoxLists button{ border: 3px $bgColor solid; background: none ; padding: 8px  13px; margin: 0 10px 0 0; font-size: 12px; border-radius: 5px;}
+.NowPlayingWordBoxLists div a{border: 3px $bgColor solid; border-radius: 50px; border-top-left-radius: 15px; margin: 0 10px 0 0; padding: 1px;}
+.NowPlayingWordBoxLists div a img{width: 25px; margin: 5px; }
+.NowPlayingWordBoxLists div{ display: flex; margin: 10px 0;}
+.NowPlayingWordBoxLists h4{ margin: 0 15px 0 0; }
+
+.artistDescritpion {border-bottom: 3px $bgColor solid; padding-bottom: 20px}
+.artistDescritpion p{font-size: 20px;}
+.lyricsBox{ border: 3px $bgColor solid; border-radius: 10px; padding: 0 20px;}
+.lyricsBox p{ font-size: 20px; }
+h5{font-weight: bold; }
+span{ display: inline-block; padding: 10px; }
+
+.largePic{ padding: 60px 0px 50px; background-color: $bgColor; background-repeat: no-repeat; background-position-x: right;  }
+.largePic img{ width: 250px; border: 5px  white solid; border-radius: 20px; }
+.largePic span { margin:0 25px; }
+.largePic span h1{ color:  $mainColor;  }
+.largePic span h2 { color:  white; }
+.largePic span h2 span{ margin: 0 20px 0 0; padding: 0; }
+
+.lower-division{display: flex;}
+#lowerDivHeading{padding:  0 5px}
+.div-artistMusic{flex: 4; padding-right: 5px; }
+.div-relatedArtists{flex: 2; padding-left: 5px; }
+
+.div-relatedArtists .artistpanel{margin: 0 auto}
+
+.albumSlot{ padding: 5px; border: 2px white solid;}
+
+.detailsPanel{display: flex; }
+.collectionPanel{ flex: 3; }
+.rankingsPanel{flex: 1;}
+
+.TrendSong{ border-bottom:3px $bgColor solid; margin-bottom: 2px; background-color: #ffe600b7; padding: 5px; border-radius: 2px}
+.trendBox{ display: flex; align-items: flex-end; }
+.trendImg{flex: 1; align-content: flex-end;}
+.trendSongName{flex: 5; text-align: left; margin: 0 10px 0; }
+.trendMark{flex: 1;}
+ #trendMark{ width: 15px;}
+  #trendImg{ width: 2em; border-radius: 5px;}
+
+ .TrendSong div button { border: none; background: none}
+ .TrendTxt{ display: inline-block; border:2px red solid;}
+
+footer{ background-color: $bgColor; border-top: 2px white solid;  color: $mainColor; margin: 100px 0 0 0; }
+
+.footerData{height: 470px; }
+.footer{ border-top: 2px $mainColor solid; display: flex;  justify-content: space-between;}
+.footer .aboutings{flex: 3; display: flex; }
+.footer .oursocialMedia{flex: 2; display: flex;}
+
+.footer h4{ color: $mainColor; padding: 10px 4px; }
+.footer a h4:hover{ color: white; text-decoration: none }
+.footer h4 a{ color: white; padding:10px 5px;  }
+.footer a img{ width: 30px;background-color: white; border-radius: 20px; padding: 2px; margin:6px 5px; }
+

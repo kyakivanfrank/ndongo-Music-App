@@ -13,7 +13,7 @@ export default ()=> <footer >
 <section className="container footer">
 <div className="aboutings">
 <a target="blank" href="####"><h4>ABOUT US</h4></a> <h4>|</h4>
-<a target="blank" href="####"><h4>ADVERTS</h4></a> <h4>|</h4>
+<a target="blank" href="####"><h4>ADVERTISE WITH US</h4></a> <h4>|</h4>
 <a target="blank" href="####"><h4>TERMS APPLIED</h4></a> <h4>|</h4>
 </div>
 

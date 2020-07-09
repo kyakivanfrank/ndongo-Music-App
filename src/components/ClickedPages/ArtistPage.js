@@ -14,7 +14,6 @@ const backgroundimage= ` linear-gradient( to right ,rgba(0, 0, 0, 1), rgba(0, 0,
 const boxStyle =()=>{ return {
     backgroundImage: backgroundimage,
     backgroundSize : "155vh"
-    
 } }
 
 return <div className="artistPage">

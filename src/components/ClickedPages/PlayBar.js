@@ -1,30 +1,23 @@
 import React from "react";
-import picture from  "../../images/kevinHart.png";
+import picture from  "../../images/chameleone.jpg"
 
-import song from "../../musicFolder/Fire Dancer - Winnie Nwagi & Slim Prince (Howwe.biz).mp3";
 
+import song from "../../musicFolder/Winnie Nwagi - Matala.mp3";
 export default props=> {
-    
-    
-    
+
     return <div className="playBar">
 
+    <div className="playbarArtist">
+    <img src={picture} alt="playBarImg"/>
+    </div>
 
+    <div className="playText">
+    <h4>Wanchekecha</h4>        
+    <h5>Saida Karoli wachekecha</h5>
+    </div>
 
-<div className="playbarArtistdisplay popup">
-<img src={picture} alt="playBarImg"/>
-<span>
-<audio autoPlay="on" src={song}>this is e song</audio>
-<h4>Song TItle </h4>
-<h5>Song name </h5></span>
-</div>
-
-
-<div>
-<button>play</button>
-<span>progressbar compoonent</span>
-
-<button>refresh button</button>
-</div>
+    <audio className="audio" controls>
+    <source src={song} type="audio/mpeg"/>
+    </audio>
 
 </div>}

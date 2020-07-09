@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import databaseJson from "./components/databaseJson";
 import Header from './components/header/Header';
 import Footer from './components/Footer/Footer';
@@ -21,20 +21,19 @@ render(){
   const { data } = this.state;
 
 
-  return <>
+  return <div >
   <Header/> 
-<div className="replacerDiv"></div>
-  <div>
-<Switch>
-<Route exact={true} path="/tryThis/:songFile" render={ ({match}) => <PlayBar {...match}/>} />
-<Route exact={true} path="/" render={() => <MainComponent data={data} />}/>
-<Route exact={true} path={`/:artistName/:albumTitle/:title`} render={ ({match}) => <SongPage {...match} data={data} /> }/>
-<Route exact={true} path={`/:artistName`} render={ ({match}) => <ArtistPage {...match} data={data} />}/>
-</Switch>
-</div>
+    <div className="replacerDiv"></div>
+<PlayBar />
+
+  <Switch>
+      <Route exact={true} path="/" render={() => <MainComponent data={data} />}/>
+      <Route exact={true} path={`/:artistName/:albumTitle/:title`} render={ ({match}) => <SongPage {...match} data={data} /> }/>
+      <Route exact={true} path={`/:artistName`} render={ ({match}) => <ArtistPage {...match} data={data} />}/>
+  </Switch>
   <Footer/>
 
-</>
+</div>
 
 }}
   export default App;
