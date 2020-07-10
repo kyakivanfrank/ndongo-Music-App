@@ -1,5 +1,4 @@
 
-import trialSong from "../musicFolder/John Blaq - Obubadi.mp3"
 import artistImage from "../images/kevinHart.png"
 import AlbumArt from "../images/drake.jpg"
 import fikFameika from "../images/fikfameika.jpg"
@@ -40,7 +39,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -48,7 +47,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -56,14 +55,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -78,7 +77,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -102,7 +101,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -110,7 +109,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -118,14 +117,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -140,7 +139,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -164,7 +163,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -172,7 +171,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -180,14 +179,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -202,7 +201,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -226,7 +225,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -234,7 +233,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -242,14 +241,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -264,7 +263,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -288,14 +287,14 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -310,7 +309,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -334,7 +333,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -342,7 +341,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -350,14 +349,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -372,7 +371,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -396,7 +395,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -404,7 +403,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -412,14 +411,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -434,7 +433,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -458,7 +457,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -466,7 +465,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -474,14 +473,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -496,7 +495,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -520,7 +519,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"befuula",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -528,7 +527,7 @@ const databaseJson =  {
                         },
                         {
                             "title":"kuuma obwesigwa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -536,14 +535,14 @@ const databaseJson =  {
                         },
                         {
                             "title":"vvumilia",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
                             "genre" : UgandanMix
                         }, {
                             "title":"mama africa",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
@@ -558,7 +557,7 @@ const databaseJson =  {
                     "songs":[
                         {
                             "title":"sivyo ndivyi",
-                            "songFile":trialSong,
+                            "songFile":"trialSong",
                             "lyrics": lyrics,
                             "timesOfplay": 2400,
                             "dateUploaded": "3 years ago", 
